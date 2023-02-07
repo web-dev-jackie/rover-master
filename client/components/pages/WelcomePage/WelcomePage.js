@@ -53,6 +53,7 @@ export default function WelcomePage() {
             height="75px"
             alt="Oh no!"
           />
+          <br />
           <iframe
             width="280"
             height="158"
@@ -85,6 +86,7 @@ export default function WelcomePage() {
             height="75px"
             alt="Oh no!"
           />
+          <br />
           <iframe
             width="280"
             height="158"
@@ -112,6 +114,7 @@ export default function WelcomePage() {
             height="75px"
             alt="Oh no!"
           />
+          <br />
           <iframe
             width="280"
             height="158"
@@ -133,6 +136,8 @@ export default function WelcomePage() {
           <br />
           <Button static>Static</Button>
         </Container>
+      </Section>
+      <Section>
         <Container>
           <img
             src={RoverHelp}
@@ -140,6 +145,7 @@ export default function WelcomePage() {
             height="75px"
             alt="Oh no!"
           />
+          <br />
           <iframe
             width="280"
             height="158"
@@ -158,22 +164,24 @@ export default function WelcomePage() {
       <Section>
         <Container fluid>
           <Title size="3">Available Dogs</Title>
-          <h1>Check out our available dogs and apply to adopt.</h1>
+          Check out our available dogs and apply to adopt.
           <br />
           <Button static>Static</Button>
         </Container>
-        <br />
+      </Section>
+      <Section>
         <Container fluid>
           <Title size="3">Sign Up for the Leash Class</Title>
-          Learn leash foundation in a five-part video series.
+          Learn leash foundation in a five-part video series. Laboris ea fugiat incididunt adipisicing amet offic.
           <br />
           <Button static>Static</Button>
         </Container>
-        <br />
+      </Section>
+      <Section>
         <Container fluid>
           <Title size="3">Price List for Training</Title>
           Labore commodo ipsum eiusmod aliquip elit ex id exercitation ullamco
-          id do laboris excepteur.
+          id do laboris excepteur. Consequat non duis magna id aliqua aliquip sint consequat nulla nulla.
           <br />
           <Button static>Static</Button>
         </Container>
