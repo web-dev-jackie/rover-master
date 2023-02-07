@@ -14,8 +14,15 @@ export default function FooterComponent() {
       <Container>
         <Content className={styles.content} textAlign="center">
           <p>
-            {`Copyright Ⓒ ${year} MERN Boilerplate. All Rights Reserved.`}
+            501(c)(3) Animal Rescue & Dog Trainer
+            <br />
+            EIN: 812178821 | Handover Rover | P.O. Box 97567
+            <br />
+            Phoenix, AZ 85060
+            <br />
+            koco@handoverrover.com
           </p>
+          <p>{`Copyright Ⓒ ${year} Handover Rover. All Rights Reserved.`}</p>
         </Content>
       </Container>
     </Footer>

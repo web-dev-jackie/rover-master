@@ -1,6 +1,5 @@
 import React from 'react';
-import { render } from 'react-dom';
-// import { createRoot } from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
@@ -11,14 +10,9 @@ import { store, history } from '_store';
 
 import Root from '_components/environment/Root';
 
-render(
-  <Root history={history} store={store} />,
-  document.getElementById('app'),
-);
-
 // This Enables React 18.
 // There is currently an issue in React 18 with notifications.
 // Animate.CSS animations will "blink".
 
-// createRoot(document.getElementById('app'))
-//   .render(<Root history={history} store={store} />);
+createRoot(document.getElementById('app'))
+  .render(<Root history={history} store={store} />);

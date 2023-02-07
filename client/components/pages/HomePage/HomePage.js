@@ -6,6 +6,7 @@ import R from 'ramda';
 import Section from 'react-bulma-companion/lib/Section';
 import Container from 'react-bulma-companion/lib/Container';
 import Title from 'react-bulma-companion/lib/Title';
+// import Button from 'react-bulma-companion/lib/Button';
 
 import styles from './styles.module.css';
 
@@ -24,7 +25,7 @@ export default function HomePage() {
       <Section>
         <Container>
           <Title size="1">
-            Home Page
+            You`re logged In!
           </Title>
         </Container>
       </Section>
