@@ -1,7 +1,7 @@
 {
   "name": "mern-boilerplate",
   "version": "1.0.0",
-  "description": "A full MERN stack boilerplate",
+  "homepage": "https://web-dev-jackie.github.io/rover-refactor/",
   "main": "server/index.js",
   "scripts": {
     "build": "./scripts/build-prd.sh",
@@ -16,7 +16,9 @@
     "test:verbose": "./scripts/test-verbose.sh",
     "test:coverage": "./scripts/test-coverage.sh",
     "test:watch-client": "./scripts/test-watch-client.sh",
-    "test:watch-server": "./scripts/test-watch-server.sh"
+    "test:watch-server": "./scripts/test-watch-server.sh",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "pre-commit": [
     "lint",
@@ -24,12 +26,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/djizco/mern-boilerplate.git"
+    "url": "git+https://github.com/web-dev-jackie/rover-refactor"
   },
   "author": {
-    "name": "Federico Rojas",
-    "email": "djizco@yahoo.com",
-    "url": "https://github.com/djizco"
+    "name": "Jacqueline Heatley",
+    "email": "webdevjackie@icloud.com"
   },
   "license": "MIT",
   "bugs": {
@@ -47,7 +48,6 @@
     "eslint",
     "jest"
   ],
-  "homepage": "https://github.com/djizco/mern-boilerplate#readme",
   "engines": {
     "node": ">=12.0.0"
   },
@@ -68,6 +68,7 @@
     "date-fns": "^2.29.3",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
+    "gh-pages": "^5.0.0",
     "history": "^5.3.0",
     "immutability-helper": "^3.1.1",
     "json-style-converter": "^1.0.3",
