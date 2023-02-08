@@ -1,6 +1,9 @@
 # Dependency Modules
 node_modules
 
+# Folders for pushing front and back seperately
+client
+
 # App Packaged
 dist
 build

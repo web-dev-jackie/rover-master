@@ -1,6 +1,7 @@
 const express      = require('express');
 const path         = require('path');
-const bodyParser   = require('body-parser');
+const bodyParser = require('body-parser');
+// var cors = require('cors')
 
 require('./config/environment');
 require('./database');
@@ -17,6 +18,8 @@ app.use(bodyParser.json());
 
 configPassport(app, express);
 
-app.use('/', routes);
+app.use('/', routes());
+
+// app.use(cors());
 
 app.listen(port, () => console.log(`Server is listening on port ${port}`));

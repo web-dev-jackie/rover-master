@@ -43,6 +43,9 @@ npm run build
 npm start:server
 ```
 
+### Prepare to Deploy
+inside 
+
 #### Other Commands
 
 ```bash
