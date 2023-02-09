@@ -9,7 +9,7 @@ import Image from 'react-bulma-companion/lib/Image';
 import Title from 'react-bulma-companion/lib/Title';
 import Button from 'react-bulma-companion/lib/Button';
 import UserDropdown from '_components/molecules/UserDropdown';
-import RoverLogo from './nav-logo.png'; // Tell webpack this JS file uses this image
+import RoverLogo from './rover-logo.png'; // Tell webpack this JS file uses this image
 
 export default function Navigation() {
   const { pathname } = useLocation();
