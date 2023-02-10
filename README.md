@@ -15,9 +15,45 @@ npm install
 brew tap mongodb/brew
 brew install mongodb-community
 ```
-might need to pass `brew services restart mongodb-community@4.2`
+## might need to pass `brew services restart mongodb-community@4.2`
 link: https://stackoverflow.com/questions/68975769/brew-services-cant-start-service-get-bootstrap-failed-5-input-output-error
 
+## might need to kill server 
+## solution 1
+This single command line is easy to remember:
+`npx kill-port 3000`
+
+You can also kill multiple ports at once:
+`npx kill-port 3000 3001 3002`
+
+For a more powerful tool with search:
+`npx fkill-cli`
+
+PS: They use third party javascript packages. npx comes built in with Node.js.
+
+Sources: tweet | github
+
+Share
+Follow
+edited Apr 19, 2021 at 22:20
+answered Jul 1, 2018 at 22:03
+Bruno Lemos's user avatar
+Bruno Lemos
+8,54755 gold badges3939 silver badges51
+
+-or-
+## solution 2
+Quick and easiest solution:
+`kill -9 $(lsof -ti:3000)`
+
+For multiple ports:
+`kill -9 $(lsof -ti:3000,3001)`
+link: https://stackoverflow.com/questions/3855127/find-and-kill-process-locking-port-3000-on-mac
+
+## in package.json
+"scripts": {
+   "start": "kill -9 $(lsof -ti:3000,3001) && npm start"
+}
 
 Start the database
 ```bash

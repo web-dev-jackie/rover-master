@@ -12,7 +12,6 @@ import RoverLeash from './rover-leash.png';
 import RoverLink from './rover-link.png';
 import RoverHelp from './rover-help.png';
 import RoverPaw from './rover-paw.png';
-import { Language } from './language';
 
 export default function WelcomePage() {
   const dispatch = useDispatch();
@@ -43,7 +42,6 @@ export default function WelcomePage() {
           clean up your mess, we want you to get better and train your dog. Free
           content on YouTube by searching for `Koco Garcia`, or click here:
           <br />
-          {Language}
           <br />
           <Button static>Static</Button>
         </Container>
