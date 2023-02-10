@@ -18,7 +18,7 @@
     "test:watch-server": "./scripts/test-watch-server.sh",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start", 
+    "start": "react-scripts start",
     "build": "react-scripts build"
   },
   "pre-commit": [
@@ -81,6 +81,7 @@
     "react": "^18.2.0",
     "react-bulma-companion": "0.5.1",
     "react-dom": "^18.2.0",
+    "react-intl": "^6.2.8",
     "react-notifications-component": "^4.0.1",
     "react-overlays": "^5.2.1",
     "react-redux": "^8.0.5",
