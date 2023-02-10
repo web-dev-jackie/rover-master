@@ -48,7 +48,7 @@ export default function Navigation() {
             component={Link}
           >
             <Title className="logo" size="3">
-              <img src={RoverLogo} className="App-logo" alt="logo" width="200px" />
+              <img src={RoverLogo} className="App-logo" alt="logo" width="100px" />
             </Title>
           </Navbar.Item>
           <div className="navbar-brand-right">
