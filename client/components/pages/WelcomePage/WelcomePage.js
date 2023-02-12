@@ -25,7 +25,29 @@ export default function WelcomePage() {
 
   return (
     <div className={styles.root}>
-      <Section>
+      <Section size="large">
+        <Container>
+          <Title size="1">Large Section</Title>
+          <Title size="2" subtitle>
+            A simple container to divide your page into
+            {' '}
+            <strong>sections</strong>
+            .
+          </Title>
+        </Container>
+      </Section>
+      <Section size="medium">
+        <Container>
+          <Title size="1">Medium Section</Title>
+          <Title size="2" subtitle>
+            A simple container to divide your page into
+            {' '}
+            <strong>sections</strong>
+            .
+          </Title>
+        </Container>
+      </Section>
+      <Section fluid>
         <Container fluid>
           <Title size="3">501(c)(3) Animal Rescue & Dog Trainer</Title>
           <iframe
@@ -46,14 +68,9 @@ export default function WelcomePage() {
           <Button static>Static</Button>
         </Container>
       </Section>
-      <Section>
+      <Section fluid>
         <Container fluid>
-          <img
-            src={RoverLink}
-            width="75px"
-            height="75px"
-            alt="Oh no!"
-          />
+          <img src={RoverLink} width="75px" height="75px" alt="Oh no!" />
           <br />
           <iframe
             width="280"
@@ -79,14 +96,9 @@ export default function WelcomePage() {
           <Button static>Static</Button>
         </Container>
       </Section>
-      <Section>
-        <Container>
-          <img
-            src={RoverLeash}
-            width="75px"
-            height="75px"
-            alt="Oh no!"
-          />
+      <Section fluid>
+        <Container fluid>
+          <img src={RoverLeash} width="75px" height="75px" alt="Oh no!" />
           <br />
           <iframe
             width="280"
@@ -107,14 +119,9 @@ export default function WelcomePage() {
           <Button static>Static</Button>
         </Container>
       </Section>
-      <Section>
+      <Section fluid>
         <Container fluid>
-          <img
-            src={RoverPaw}
-            width="75px"
-            height="75px"
-            alt="Oh no!"
-          />
+          <img src={RoverPaw} width="75px" height="75px" alt="Oh no!" />
           <br />
           <iframe
             width="280"
@@ -138,14 +145,9 @@ export default function WelcomePage() {
           <Button static>Static</Button>
         </Container>
       </Section>
-      <Section>
-        <Container>
-          <img
-            src={RoverHelp}
-            width="75px"
-            height="75px"
-            alt="Oh no!"
-          />
+      <Section fluid>
+        <Container fluid>
+          <img src={RoverHelp} width="75px" height="75px" alt="Oh no!" />
           <br />
           <iframe
             width="280"
@@ -162,7 +164,7 @@ export default function WelcomePage() {
           <Button static>Static</Button>
         </Container>
       </Section>
-      <Section>
+      <Section fluid>
         <Container fluid>
           <Title size="3">Available Dogs</Title>
           Check out our available dogs and apply to adopt.
@@ -170,10 +172,11 @@ export default function WelcomePage() {
           <Button static>Static</Button>
         </Container>
       </Section>
-      <Section>
+      <Section fluid>
         <Container fluid>
           <Title size="3">Sign Up for the Leash Class</Title>
-          Learn leash foundation in a five-part video series. Laboris ea fugiat incididunt adipisicing amet offic.
+          Learn leash foundation in a five-part video series. Laboris ea fugiat
+          incididunt adipisicing amet offic.
           <br />
           <Button static>Static</Button>
         </Container>
@@ -182,7 +185,8 @@ export default function WelcomePage() {
         <Container fluid>
           <Title size="3">Price List for Training</Title>
           Labore commodo ipsum eiusmod aliquip elit ex id exercitation ullamco
-          id do laboris excepteur. Consequat non duis magna id aliqua aliquip sint consequat nulla nulla.
+          id do laboris excepteur. Consequat non duis magna id aliqua aliquip
+          sint consequat nulla nulla.
           <br />
           <Button static>Static</Button>
         </Container>
