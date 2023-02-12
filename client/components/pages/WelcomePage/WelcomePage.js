@@ -47,8 +47,8 @@ export default function WelcomePage() {
           </Title>
         </Container>
       </Section>
-      <Section fluid>
-        <Container fluid>
+      <Section>
+        <Container>
           <Title size="3">501(c)(3) Animal Rescue & Dog Trainer</Title>
           <iframe
             width="280"
@@ -68,8 +68,8 @@ export default function WelcomePage() {
           <Button static>Static</Button>
         </Container>
       </Section>
-      <Section fluid>
-        <Container fluid>
+      <Section>
+        <Container>
           <img src={RoverLink} width="75px" height="75px" alt="Oh no!" />
           <br />
           <iframe
@@ -96,8 +96,8 @@ export default function WelcomePage() {
           <Button static>Static</Button>
         </Container>
       </Section>
-      <Section fluid>
-        <Container fluid>
+      <Section>
+        <Container>
           <img src={RoverLeash} width="75px" height="75px" alt="Oh no!" />
           <br />
           <iframe
@@ -119,8 +119,8 @@ export default function WelcomePage() {
           <Button static>Static</Button>
         </Container>
       </Section>
-      <Section fluid>
-        <Container fluid>
+      <Section>
+        <Container>
           <img src={RoverPaw} width="75px" height="75px" alt="Oh no!" />
           <br />
           <iframe
@@ -145,8 +145,8 @@ export default function WelcomePage() {
           <Button static>Static</Button>
         </Container>
       </Section>
-      <Section fluid>
-        <Container fluid>
+      <Section>
+        <Container>
           <img src={RoverHelp} width="75px" height="75px" alt="Oh no!" />
           <br />
           <iframe
@@ -164,16 +164,16 @@ export default function WelcomePage() {
           <Button static>Static</Button>
         </Container>
       </Section>
-      <Section fluid>
-        <Container fluid>
+      <Section>
+        <Container>
           <Title size="3">Available Dogs</Title>
           Check out our available dogs and apply to adopt.
           <br />
           <Button static>Static</Button>
         </Container>
       </Section>
-      <Section fluid>
-        <Container fluid>
+      <Section>
+        <Container>
           <Title size="3">Sign Up for the Leash Class</Title>
           Learn leash foundation in a five-part video series. Laboris ea fugiat
           incididunt adipisicing amet offic.
@@ -182,7 +182,7 @@ export default function WelcomePage() {
         </Container>
       </Section>
       <Section>
-        <Container fluid>
+        <Container>
           <Title size="3">Price List for Training</Title>
           Labore commodo ipsum eiusmod aliquip elit ex id exercitation ullamco
           id do laboris excepteur. Consequat non duis magna id aliqua aliquip
